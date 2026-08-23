@@ -1,0 +1,85 @@
+{
+  "personal_info": {
+    "first_name": "MELCHIZEDEC",
+    "last_name" : " MONDEZ",
+    "middle_name" : "S.",
+    "address": "MONTEVISTA, DAVAO DE ORO",
+    "phone": "+639301586281",
+    "email": "jimbros18@gmail.com",
+    "job_title" : "Data and Operations Analyst"
+    
+  },
+  "experience": [
+    {
+      "title": "DATA AND OPERATIONS SPECIALIST",
+      "company": "Lord Anthony Funeral Homes",
+      "responsibilities": [
+        "Accurately input and maintain client data to ensure all records are complete, up-to-date, and easily accessible.",
+        "Generate detailed monthly reports for sales, expenses, and accounts payable using Microsoft Excel and Python for data analysis and automation.",
+        "Prepare employee pay slip and comprehensive salary reports while tracking attendance and monitoring absences.",
+        "Serve as a customer service representative by providing clients with accurate information about services offered, including guidance on how to access government assistance and other available support.",
+        "Support day-to-day administrative operations by maintaining organized financial and personnel documentation to assist management in effective decision-making."
+      ]
+    },
+    {
+      "title": "MAINTENANCE SPECIALIST",
+      "company": "APM Help (Remote)",
+      "responsibilities": [
+        "Managed client maintenance requests by promptly assessing issues, providing troubleshooting guidance, and delivering high-quality service.",
+        "Improved client satisfaction and reduced recurring maintenance issues through proactive communication and preventive solutions.",
+        "Enhanced operational efficiency by overseeing end-to-end maintenance processes while ensuring full compliance with safety standards and company policies.",
+        "Utilized MS Office, G Suite, Appfolio CRM, and other tools to streamline communication and support client operations."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor in Elementary Education",
+      "year": "2021"
+    },
+    {
+      "degree": "Computer Programming NC IV",
+      "year": "2014"
+    },
+    {
+      "degree": "Computer Hardware Servicing NC II",
+      "year": "2013"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Funeral Management System",
+      "tools": ["Python", "FastAPI", "React", "Tailwind CSS", "SQLite"],
+      "description": "Developed a management system to organize client records, funeral services, billing, and reporting. Improved data organization and reduced manual record handling through automated processes. Built using React, Python and database management tools.",
+      "icon": "⚡"
+    },
+    {
+      "title": "Sales Report Dashboard",
+      "tools": ["Python", "SQL", "Power Query", "Power BI", "Microsoft Excel"],
+      "description": "Created an interactive dashboard for monitoring sales, expenses, and accounts payable. Automated monthly report generation using Microsoft Excel and Python. Improved reporting efficiency and data visualization for management decision-making.",
+      "icon":   "📱"
+    }
+  ],
+  "skills": {
+    "Programming & Tools" : [
+      {"tool" : "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"},
+      {"tool" : "NodeJS", "icon": ""},
+      {"tool" : "React", "icon": ""},
+      {"tool" : "SQL", "icon": ""},
+      {"tool" : "FastAPI", "icon": ""},
+      {"tool" : "Tailwind CSS", "icon": ""}
+    ],
+    "Data & Analytics": ["Power BI", "Power Query", "Microsoft Excel", "Data Analysis", "Data Visualization", "Report Generation", "Dashboard Development"],
+    "Others": [
+      "CRM Systems (AppFolio)",
+      "Google Workspace",
+      "Microsoft Office",
+      "Data Entry & Management",
+      "Payroll Processing",
+      "Customer Service",
+      "Troubleshooting",
+      "Automation",
+      "Administrative Support"
+    ]
+  }
+}
