@@ -63,23 +63,33 @@
   "skills": {
     "Programming & Tools" : [
       {"tool" : "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"},
-      {"tool" : "NodeJS", "icon": ""},
-      {"tool" : "React", "icon": ""},
-      {"tool" : "SQL", "icon": ""},
-      {"tool" : "FastAPI", "icon": ""},
-      {"tool" : "Tailwind CSS", "icon": ""}
+      {"tool" : "NodeJS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"},
+      {"tool" : "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"},
+      {"tool" : "SQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"},
+      {"tool" : "FastAPI", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain.svg"},
+      {"tool" : "Tailwind CSS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"}
     ],
-    "Data & Analytics": ["Power BI", "Power Query", "Microsoft Excel", "Data Analysis", "Data Visualization", "Report Generation", "Dashboard Development"],
+
+    "Data & Analytics": [
+      {"tool" : "Power BI", "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/powerbi.svg"},
+      {"tool" : "Power Query", "icon": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/FFFFFF/external-formulae-table-with-row-and-column-cells-table-regular-tal-revivo.png"},
+      {"tool" : "Microsoft Excel", "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/microsoft-excel.svg"},
+      {"tool" : "Data Analysis", "icon": "https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/64a775/external-data-analysis-web-analytics-smashingstocks-mixed-smashing-stocks-8.png"},
+      {"tool" : "Data Visualization", "icon": "https://img.icons8.com/ios-filled/100/FFFFFF/25-percents.png"},
+      {"tool" : "Report Generation", "icon": "https://img.icons8.com/ios/100/FFFFFF/graph-report.png"},
+      {"tool" : "Dashboard Development", "icon": "https://img.icons8.com/glyph-neue/128/FFFFFF/control-panel.png"}
+      
+    ],
     "Others": [
-      "CRM Systems (AppFolio)",
-      "Google Workspace",
-      "Microsoft Office",
-      "Data Entry & Management",
-      "Payroll Processing",
-      "Customer Service",
-      "Troubleshooting",
-      "Automation",
-      "Administrative Support"
+      {"tool" : "CRM Systems (AppFolio)", "icon": "https://img.icons8.com/ios-filled/100/FFFFFF/crm.png"},
+      {"tool" : "Google Workspace", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"},
+      {"tool" : "Microsoft Office", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoft/microsoft-original.svg"},
+      {"tool" : "Data Entry & Management", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-data-analytics-and-business-intelligence-flaticons-lineal-color-flat-icons.png"},
+      {"tool" : "Payroll Processing", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-payroll-human-resources-flaticons-lineal-color-flat-icons.png"},
+      {"tool" : "Customer Service", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-customer-service-communication-flaticons-lineal-color-flat-icons.png"},
+      {"tool" : "Troubleshooting", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-troubleshooting-technology-flaticons-lineal-color-flat-icons.png"},
+      {"tool" : "Automation", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-automation-technology-flaticons-lineal-color-flat-icons.png"},
+      {"tool" : "Administrative Support", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-administrative-support-business-and-finance-flaticons-lineal-color-flat-icons.png"}
     ]
   }
 }

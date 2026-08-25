@@ -1,3 +1,6 @@
+
+
+
 export default function Tools({skills}) {
   return (
     <section id="tools" className="section-full relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8">
@@ -7,29 +10,29 @@ export default function Tools({skills}) {
           Tools
         </h2>
         <p className="text-center text-text-secondary mb-10 text-base">
-          Technologies I work with daily
+          Commonly Used Technologies and Tools
         </p>
-        <div className="flex flex-col gap-5 max-w-200 mx-auto">
-            {Object.entries(skills).map(([category, tools]) => (
-                <div key={category} className="flex flex_col border border-card-border py-4 gap-6">
-                  <div className="items w-40 font-semibold text-accent">{category}</div>
-                  <div className="flex flex-row border gap-6 flex-1">
-                    {tools.map((tool) => (
-                      <div key={tool.tool} className="flex flex-col items-center gap-1 min-w-17.5">
-                        {tool.icon && (
-                          <img
-                            src={tool.icon}
-                            alt={tool.tool}
-                            className="w-10 h-10 object-contain"
-                            onError={(e) => (e.target.style.display = 'none')}
-                          />
-                        )}
-                        <span className="text-sm text-text-secondary text-center">{tool.tool}</span>
-                      </div>
-                    ))}
+        <div className="flex flex-col gap-5 w-full mx-auto">
+          {Object.entries(skills).map(([category, tools]) => (
+            <div key={category} className="flex flex-col p-5 gap-3 w-full">
+              <h1 className="text-center font-semibold text-accent p-5"> {category} </h1>
+              <div className="flex justify-center gap-10 w-full">
+                {tools.map((tool) => (
+                  <div key={tool.tool}className="flex flex-col items-center gap-2 min-w-20">
+                    {tool.icon && (
+                      <img
+                        src={tool.icon}
+                        alt={tool.tool}
+                        className="w-10 h-10 object-contain"
+                        onError={(e) => (e.target.style.display = "none")}
+                      />
+                    )}
+                    <span className="text-sm text-text-secondary text-center"> {tool.tool} </span>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
