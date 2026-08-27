@@ -6,7 +6,7 @@
     "address": "MONTEVISTA, DAVAO DE ORO",
     "phone": "+639301586281",
     "email": "jimbros18@gmail.com",
-    "job_title" : "Data and Operations Analyst"
+    "job_title" : ["Data Analyst", "Reports Analyst", "Web Developer"]
     
   },
   "experience": [
@@ -81,15 +81,15 @@
       
     ],
     "Others": [
-      {"tool" : "CRM Systems (AppFolio)", "icon": "https://img.icons8.com/ios-filled/100/FFFFFF/crm.png"},
+      {"tool" : "CRM Systems (AppFolio)", "icon": "https://img.icons8.com/ios-filled/100/EBEBEB/conference-call.png"},
       {"tool" : "Google Workspace", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"},
-      {"tool" : "Microsoft Office", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoft/microsoft-original.svg"},
-      {"tool" : "Data Entry & Management", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-data-analytics-and-business-intelligence-flaticons-lineal-color-flat-icons.png"},
+      {"tool" : "Microsoft Office", "icon": "https://img.icons8.com/ios/100/EBEBEB/microsoft-office-2019.png"},
+      {"tool" : "Data Entry & Management", "icon": "https://img.icons8.com/dotty/80/EBEBEB/data-provider.png"},
       {"tool" : "Payroll Processing", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-payroll-human-resources-flaticons-lineal-color-flat-icons.png"},
-      {"tool" : "Customer Service", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-customer-service-communication-flaticons-lineal-color-flat-icons.png"},
-      {"tool" : "Troubleshooting", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-troubleshooting-technology-flaticons-lineal-color-flat-icons.png"},
-      {"tool" : "Automation", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-automation-technology-flaticons-lineal-color-flat-icons.png"},
-      {"tool" : "Administrative Support", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-administrative-support-business-and-finance-flaticons-lineal-color-flat-icons.png"}
+      {"tool" : "Customer Service", "icon": "https://img.icons8.com/ios-filled/100/EBEBEB/online-support.png"},
+      {"tool" : "Troubleshooting", "icon": "https://img.icons8.com/external-solidglyph-m-oki-orlando/64/EBEBEB/external-software-maintenance-information-technology-solid-solidglyph-m-oki-orlando.png"},
+      {"tool" : "Automation", "icon": "https://img.icons8.com/ios-filled/100/EBEBEB/settings-3.png"},
+      {"tool" : "Administrative Support", "icon": "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/EBEBEB/external-filing-cyber-spot-and-cyber-security-flatart-icons-outline-flatarticons.png"}
     ]
   }
 }

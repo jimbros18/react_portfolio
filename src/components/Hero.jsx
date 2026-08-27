@@ -1,4 +1,16 @@
+  import { useEffect, useState } from "react";
+
 export default function Hero({pi}) {
+
+  const [jobIndex, setJobIndex] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setJobIndex((prev) => (prev + 1) % pi.job_title.length);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [pi.job_title]);
+
   return (
     <section id="main" className="section-full relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8">
       <div className="absolute inset-0 bg-gradient-2 opacity-60 z-0" />
@@ -10,11 +22,10 @@ export default function Hero({pi}) {
           {pi.first_name} {pi.middle_name} {pi.last_name}
         </h1>
         <p className="text-[clamp(1.1rem,2.5vw,1.4rem)] font-medium text-text-secondary mb-5">
-          {pi.job_title}
-        </p>
+          {pi.job_title[jobIndex]}
+        </p>            
         <p className="max-w-140 mx-auto mb-10 text-[1.05rem] leading-relaxed text-text-secondary">
-          I craft clean, performant web experiences with modern technologies.
-          Passionate about turning ideas into polished products that users love.
+          I am passionate about working with data, transforming complex information into meaningful visualizations and actionable insights that support informed decision-making.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a

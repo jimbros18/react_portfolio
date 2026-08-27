@@ -1,9 +1,13 @@
 import { useState, useEffect, useRef } from 'react'
+
+import About from './components/About'
+import Experience from './components/Experience'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Tools from './components/Tools'
 import Contact from './components/Contact'
+
 import cv from './cv.json'
 
 const profile = cv;
@@ -68,7 +72,9 @@ function App() {
         activeSection={activeSection}
       />
       <Hero pi={profile.personal_info}/>
+      <About />
       <Projects projects={profile.projects}/>
+      <Experience />
       <Tools skills ={profile.skills}/>
       <Contact />
     </>
