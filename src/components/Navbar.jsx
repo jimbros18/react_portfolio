@@ -12,7 +12,7 @@ export default function Navbar({ theme, toggleTheme, activeSection }) {
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-10 bg-nav-bg backdrop-blur-2xl border-b border-card-border transition-[background-color] duration-350">
       
       <div className="font-display font-bold text-xl tracking-tight text-gradient-1">
-        YN.
+        MM
       </div>
 
       <ul className="hidden md:flex gap-8 list-none">

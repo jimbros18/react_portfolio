@@ -4,10 +4,33 @@
     "last_name" : " MONDEZ",
     "middle_name" : "S.",
     "address": "MONTEVISTA, DAVAO DE ORO",
-    "phone": "+639301586281",
-    "email": "jimbros18@gmail.com",
-    "job_title" : ["Data Analyst", "Reports Analyst", "Web Developer"]
-    
+    "job_title" : ["Data Analyst", "Reports Analyst", "Web Developer"],
+    "contact": {
+        "phone": {
+          "label": "Mobile No.",
+          "value": "+639301586281",
+          "url": "",
+          "icon": "https://img.icons8.com/ios-filled/100/228BE6/apple-phone.png"
+        },
+        "mail": {
+          "label": "Email",
+          "value": "jimbros18@gmail.com",
+          "url": "",
+          "icon": "https://img.icons8.com/color/48/gmail-new.png"
+        },
+        "linkedin": {
+          "label": "LinkedIn",
+          "value": "in/melky-zedec/",
+          "url": "https://www.linkedin.com/in/melky-zedec/",
+          "icon": "https://img.icons8.com/ios-filled/100/228BE6/linkedin.png"
+        },
+        "github": {
+          "label": "GitHub",
+          "value": "jimbros18",
+          "url": "https://github.com/jimbros18",
+          "icon": "https://img.icons8.com/ios-filled/100/228BE6/github.png"
+        }
+      }    
   },
   "experience": [
     {
@@ -62,34 +85,34 @@
   ],
   "skills": {
     "Programming & Tools" : [
-      {"tool" : "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"},
-      {"tool" : "NodeJS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"},
-      {"tool" : "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"},
-      {"tool" : "SQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"},
-      {"tool" : "FastAPI", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain.svg"},
-      {"tool" : "Tailwind CSS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"}
+      {"tool" : "Python", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"} },
+      {"tool" : "NodeJS", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"} },
+      {"tool" : "React", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"} },
+      {"tool" : "SQL", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"} },
+      {"tool" : "FastAPI", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain.svg"} },
+      {"tool" : "Tailwind CSS", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"} }
     ],
 
     "Data & Analytics": [
-      {"tool" : "Power BI", "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/powerbi.svg"},
-      {"tool" : "Power Query", "icon": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/FFFFFF/external-formulae-table-with-row-and-column-cells-table-regular-tal-revivo.png"},
-      {"tool" : "Microsoft Excel", "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/microsoft-excel.svg"},
-      {"tool" : "Data Analysis", "icon": "https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/64a775/external-data-analysis-web-analytics-smashingstocks-mixed-smashing-stocks-8.png"},
-      {"tool" : "Data Visualization", "icon": "https://img.icons8.com/ios-filled/100/FFFFFF/25-percents.png"},
-      {"tool" : "Report Generation", "icon": "https://img.icons8.com/ios/100/FFFFFF/graph-report.png"},
-      {"tool" : "Dashboard Development", "icon": "https://img.icons8.com/glyph-neue/128/FFFFFF/control-panel.png"}
+      {"tool" : "Power BI", "icon": { "light": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/powerbi.svg" , "dark": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/powerbi.svg"}},
+      {"tool" : "Power Query", "icon": { "light": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/228BE6/external-formulae-table-with-row-and-column-cells-table-regular-tal-revivo.png" , "dark": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/FFFFFF/external-formulae-table-with-row-and-column-cells-table-regular-tal-revivo.png"}},
+      {"tool" : "Microsoft Excel", "icon": { "light": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/microsoft-excel.svg", "dark": "https://cdn.jsdelivr.net/gh/selfhst/icons/svg/microsoft-excel.svg"}},
+      {"tool" : "Data Analysis", "icon": { "light": "https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/228BE6/external-data-analysis-web-analytics-smashingstocks-mixed-smashing-stocks-8.png", "dark": "https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/FFFFFF/external-data-analysis-web-analytics-smashingstocks-mixed-smashing-stocks-8.png"}},
+      {"tool" : "Data Visualization", "icon": { "light": "https://img.icons8.com/ios-filled/100/228BE6/25-percents.png", "dark": "https://img.icons8.com/ios-filled/100/FFFFFF/25-percents.png"}},
+      {"tool" : "Report Generation", "icon": { "light": "https://img.icons8.com/ios/100/228BE6/graph-report.png", "dark": "https://img.icons8.com/ios/100/FFFFFF/graph-report.png"}},
+      {"tool" : "Dashboard Development", "icon": { "light": "https://img.icons8.com/glyph-neue/128/228BE6/control-panel.png", "dark": "https://img.icons8.com/glyph-neue/128/FFFFFF/control-panel.png"}}
       
     ],
     "Others": [
-      {"tool" : "CRM Systems (AppFolio)", "icon": "https://img.icons8.com/ios-filled/100/EBEBEB/conference-call.png"},
-      {"tool" : "Google Workspace", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"},
-      {"tool" : "Microsoft Office", "icon": "https://img.icons8.com/ios/100/EBEBEB/microsoft-office-2019.png"},
-      {"tool" : "Data Entry & Management", "icon": "https://img.icons8.com/dotty/80/EBEBEB/data-provider.png"},
-      {"tool" : "Payroll Processing", "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-payroll-human-resources-flaticons-lineal-color-flat-icons.png"},
-      {"tool" : "Customer Service", "icon": "https://img.icons8.com/ios-filled/100/EBEBEB/online-support.png"},
-      {"tool" : "Troubleshooting", "icon": "https://img.icons8.com/external-solidglyph-m-oki-orlando/64/EBEBEB/external-software-maintenance-information-technology-solid-solidglyph-m-oki-orlando.png"},
-      {"tool" : "Automation", "icon": "https://img.icons8.com/ios-filled/100/EBEBEB/settings-3.png"},
-      {"tool" : "Administrative Support", "icon": "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/EBEBEB/external-filing-cyber-spot-and-cyber-security-flatart-icons-outline-flatarticons.png"}
+      {"tool" : "CRM Systems (AppFolio)", "icon": { "light": "https://img.icons8.com/ios-filled/100/228BE6/conference-call.png", "dark": "https://img.icons8.com/ios-filled/100/EBEBEB/conference-call.png"}},
+      {"tool" : "Google Workspace", "icon": { "light": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg", "dark": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"}},
+      {"tool" : "Microsoft Office", "icon": { "light": "https://img.icons8.com/ios/100/228BE6/microsoft-office-2019.png", "dark": "https://img.icons8.com/ios/100/EBEBEB/microsoft-office-2019.png"}},
+      {"tool" : "Data Entry & Management", "icon": { "light": "https://img.icons8.com/dotty/80/228BE6/data-provider.png", "dark": "https://img.icons8.com/dotty/80/EBEBEB/data-provider.png"}},
+      {"tool" : "Payroll Processing", "icon": { "light": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-payroll-human-resources-flaticons-lineal-color-flat-icons.png", "dark": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/FFFFFF/external-payroll-human-resources-flaticons-lineal-color-flat-icons.png"}},
+      {"tool" : "Customer Service", "icon": { "light": "https://img.icons8.com/ios-filled/100/228BE6/online-support.png", "dark": "https://img.icons8.com/ios-filled/100/EBEBEB/online-support.png"}},
+      {"tool" : "Troubleshooting", "icon": { "light": "https://img.icons8.com/external-solidglyph-m-oki-orlando/64/228BE6/external-software-maintenance-information-technology-solid-solidglyph-m-oki-orlando.png", "dark": "https://img.icons8.com/external-solidglyph-m-oki-orlando/64/EBEBEB/external-software-maintenance-information-technology-solid-solidglyph-m-oki-orlando.png"}},
+      {"tool" : "Automation", "icon": { "light": "https://img.icons8.com/ios-filled/100/228BE6/settings-3.png", "dark": "https://img.icons8.com/ios-filled/100/EBEBEB/settings-3.png"}},
+      {"tool" : "Administrative Support", "icon": { "light": "https://img.icons8.com/sf-black-filled/64/228BE6/administrative-tools.png", "dark": "https://img.icons8.com/sf-black-filled/64/EBEBEB/administrative-tools.png"}}
     ]
   }
 }

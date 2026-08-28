@@ -1,13 +1,13 @@
 
 
 
-export default function Tools({skills}) {
+export default function Tools({skills, theme}) {
   return (
     <section id="tools" className="section-full relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8">
       <div className="absolute inset-0 bg-gradient-2 opacity-60 z-0" />
       <div className="relative z-10 w-full max-w-275">
         <h2 className="font-display text-[clamp(1.8rem,4vw,2.4rem)] font-bold text-center mb-1.5">
-          Tools
+          Tools & Skills
         </h2>
         <p className="text-center text-text-secondary mb-10 text-base">
           Commonly Used Technologies and Tools
@@ -21,10 +21,12 @@ export default function Tools({skills}) {
                   <div key={tool.tool}className="flex flex-col items-center gap-2 min-w-20">
                     {tool.icon && (
                       <img
-                        src={tool.icon}
-                        alt={tool.tool}
-                        className="w-10 h-10 object-contain"
-                        onError={(e) => (e.target.style.display = "none")}
+                          src={theme === 'light' 
+                              ? (tool.icon.light || tool.icon.dark) 
+                              : (tool.icon.dark || tool.icon.light)}
+                          alt={tool.tool}
+                          className="w-10 h-10 object-contain"
+                          onError={(e) => (e.target.style.display = "none")}
                       />
                     )}
                     <span className="text-sm text-text-secondary text-center"> {tool.tool} </span>

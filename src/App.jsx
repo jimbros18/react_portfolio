@@ -75,8 +75,8 @@ function App() {
       <About />
       <Projects projects={profile.projects}/>
       <Experience />
-      <Tools skills ={profile.skills}/>
-      <Contact />
+      <Tools skills ={profile.skills} theme={theme}/>
+      <Contact contact={profile.personal_info.contact}/>
     </>
   )
 }
