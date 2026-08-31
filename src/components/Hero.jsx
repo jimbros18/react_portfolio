@@ -1,4 +1,6 @@
-  import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import Shuffle from '../assets/Shuffle';
+import WarpText from "../assets/WarpText";
 
 export default function Hero({pi}) {
 
@@ -6,7 +8,7 @@ export default function Hero({pi}) {
   useEffect(() => {
     const interval = setInterval(() => {
       setJobIndex((prev) => (prev + 1) % pi.job_title.length);
-    }, 1000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, [pi.job_title]);
@@ -18,11 +20,45 @@ export default function Hero({pi}) {
         <span className="inline-block px-4 py-1.5 mb-6 text-xs font-medium tracking-wider text-accent-2 bg-card-bg border border-card-border rounded-full">
           Available for opportunities
         </span>
-        <h1 className="font-display text-[clamp(2.8rem,7vw,4.5rem)] font-bold tracking-tighter leading-tight mb-2 text-gradient-1">
-          {pi.first_name} {pi.middle_name} {pi.last_name}
+        {/* <h1 className="font-display text-[clamp(2.8rem,7vw,4.5rem)] font-bold tracking-tighter leading-tight mb-2 text-gradient-1"> */}
+        <h1 className="geist-pixel tracking-tighter leading-tight mb-2 text-gradient-1">
+          {/* {pi.first_name} {pi.middle_name} {pi.last_name} */}
+          <WarpText
+            text={`${pi.first_name} ${pi.middle_name} ${pi.last_name}`}
+            color="#f8f5ff"
+            warpStrength={0.08}
+            warpScale={1.7}
+            speed={0.55}
+            pointerInfluence={0.5}
+            pointerStrength={2.5}
+            refraction={0.018}
+            ripple
+            fontSize={300}
+            fontWeight={800}
+            style={{ height: '320px' }}
+            fontFamily="inherit"
+            letterSpacing={-0.06}
+            lineHeight={0.9}
+          />
+          
         </h1>
-        <p className="text-[clamp(1.1rem,2.5vw,1.4rem)] font-medium text-text-secondary mb-5">
-          {pi.job_title[jobIndex]}
+        <p className="shuffle-font text-[clamp(1.1rem,2.5vw,1.4rem)] font-medium text-text-secondary mb-5">
+            <Shuffle
+              key={jobIndex}
+              text={pi.job_title[jobIndex]}
+              shuffleDirection="right"
+              duration={0.35}
+              animationMode="evenodd"
+              shuffleTimes={1}
+              ease="power3.out"
+              stagger={0.03}
+              threshold={0.1}
+              triggerOnce={true}
+              triggerOnHover
+              respectReducedMotion={true}
+              loop={false}
+              loopDelay={0}
+            />
         </p>            
         <p className="max-w-140 mx-auto mb-10 text-[1.05rem] leading-relaxed text-text-secondary">
           I am passionate about working with data, transforming complex information into meaningful visualizations and actionable insights that support informed decision-making.
