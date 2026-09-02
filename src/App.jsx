@@ -72,9 +72,9 @@ function App() {
         activeSection={activeSection}
       />
       <Hero pi={profile.personal_info}/>
-      <About />
+      <About me={profile.about_me}/>
       <Projects projects={profile.projects}/>
-      <Experience />
+      <Experience experience={profile.experience} />
       <Tools skills ={profile.skills} theme={theme}/>
       <Contact contact={profile.personal_info.contact}/>
     </>

@@ -32,9 +32,10 @@
         }
       }    
   },
+  "about_me":"I’m Melchizedec Mondez — a Data Analyst and Web Developer who builds tools that make information useful. From automating financial reports with Python to developing a complete Funeral Management System with React and FastAPI, I focus on practical solutions that reduce manual work and help teams make better decisions. Based in Davao de Oro, I’m open to roles in data analysis, reporting, and web development.",
   "experience": [
     {
-      "title": "DATA AND OPERATIONS SPECIALIST",
+      "title": "DATA AND OPERATIONS SPECIALIST",  
       "company": "Lord Anthony Funeral Homes",
       "responsibilities": [
         "Accurately input and maintain client data to ensure all records are complete, up-to-date, and easily accessible.",
