@@ -14,7 +14,7 @@ export default function Hero({pi}) {
   }, [pi.job_title]);
 
   return (
-    <section id="main" className="section-full relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8">
+    <section id="main" className="section-full md:snap-start relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8">
       <div className="absolute inset-0 bg-gradient-2 opacity-60 z-0" />
       <div className="relative z-10 w-full max-w-275 text-center">
         <span className="inline-block px-4 py-1.5 mb-6 text-xs font-medium tracking-wider text-accent-2 bg-card-bg border border-card-border rounded-full">
