@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Shuffle from '../assets/Shuffle';
 import WarpText from "../assets/WarpText";
+import LightPillar from "../assets/LightPillar";
 
 export default function Hero({pi}) {
 
@@ -14,8 +15,25 @@ export default function Hero({pi}) {
   }, [pi.job_title]);
 
   return (
-    <section id="main" className="section-full md:snap-start relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8">
-      <div className="absolute inset-0 bg-gradient-2 opacity-60 z-0" />
+    <section id="main" className="section-full md:snap-start relative flex flex-col justify-center items-center overflow-hidden px-5 pt-24 pb-10 md:px-8 min-h-screen">
+       
+    <div className="absolute inset-0 z-0 w-full h-full">
+        <LightPillar
+            topColor="#5227FF"
+            bottomColor="#FF9FFC"
+            intensity={1}
+            rotationSpeed={0.3}
+            glowAmount={0.002}
+            pillarWidth={3}
+            pillarHeight={0.4}
+            noiseIntensity={0.5}
+            pillarRotation={25}
+            interactive={false}
+            mixBlendMode="screen"
+            quality="high"
+        />
+    </div>
+      {/* <div className="absolute inset-0 bg-gradient-2 opacity-60 z-10" /> */}
       <div className="relative z-10 w-full max-w-275 text-center">
         <span className="inline-block px-4 py-1.5 mb-6 text-xs font-medium tracking-wider text-accent-2 bg-card-bg border border-card-border rounded-full">
           Available for opportunities

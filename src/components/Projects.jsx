@@ -43,7 +43,14 @@ export default function Projects({projects}) {
                   ))}
                 </div>
                 <span className="mt-4 text-xs text-accent-2 flex items-center gap-1 opacity-0 -translate-x-2 transition-all duration-350 group-hover:opacity-100 group-hover:translate-x-0">
-                  View on GitHub →
+                  <a 
+                    href={project.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="mt-4 text-xs text-accent-2 flex items-center gap-1 opacity-0 -translate-x-2 transition-all duration-350 group-hover:opacity-100 group-hover:translate-x-0"
+                  >
+                    View on GitHub →
+                  </a>
                 </span>
               </div>
             </a>

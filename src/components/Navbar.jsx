@@ -9,13 +9,13 @@ export default function Navbar({ theme, toggleTheme, activeSection }) {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-10 bg-nav-bg backdrop-blur-2xl border-b border-card-border transition-[background-color] duration-350">
+    <nav className="fixed top-5 left-1/2 -translate-x-1/2 z-50 w-3/4 flex items-center justify-between px-6 py-4 md:px-10 bg-white/2 backdrop-blur-md border border-white/8 rounded-full transition-all duration-350">
       
       <div className="font-display font-bold text-xl tracking-tight text-gradient-1">
         MM
       </div>
 
-      <ul className="hidden md:flex gap-8 list-none">
+      <ul className="hidden md:flex gap-8 list-none"> 
         {links.map((link) => (
           <li key={link.id}>
             <a

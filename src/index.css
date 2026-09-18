@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
   --font-display: "Space Grotesk", sans-serif;
@@ -45,11 +44,12 @@ body {
   background-color: var(--color-bg-primary);
   color: var(--color-text-primary);
   line-height: 1.6;
-  transition: background-color var(--transition-default), color var(--transition-default);
+  transition:
+    background-color var(--transition-default),
+    color var(--transition-default);
 }
 
-
-.shuffle-font *  {
+.shuffle-font * {
   font-family: "Press Start 2P", system-ui;
   font-weight: 10;
   font-size: 1.5rem !important;
@@ -60,25 +60,44 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "ELSH" 0;
+  font-variation-settings: "ELSH" 0;
 }
 
 /* Gradient utilities */
 .bg-gradient-1 {
-  background-image: linear-gradient(135deg, #7c5cff 0%, #00d4ff 50%, #ff6b9d 100%);
+  background-image: linear-gradient(
+    135deg,
+    #7c5cff 0%,
+    #00d4ff 50%,
+    #ff6b9d 100%
+  );
 }
 
 .bg-gradient-2 {
-  background-image: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background-image: linear-gradient(
+    135deg,
+    #1a1a2e 0%,
+    #16213e 50%,
+    #0f3460 100%
+  );
 }
 
 [data-theme="light"] .bg-gradient-2 {
-  background-image: linear-gradient(135deg, #e8e8f0 0%, #d0d4e8 50%, #c0c8e0 100%);
+  background-image: linear-gradient(
+    135deg,
+    #e8e8f0 0%,
+    #d0d4e8 50%,
+    #c0c8e0 100%
+  );
 }
 
 .text-gradient-1 {
-  background-image: linear-gradient(135deg, #7c5cff 0%, #00d4ff 50%, #ff6b9d 100%);
+  background-image: linear-gradient(
+    135deg,
+    #7c5cff 0%,
+    #00d4ff 50%,
+    #ff6b9d 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -86,13 +105,23 @@ body {
 
 /* Project card hover gradient overlay */
 .project-card-overlay {
-  background-image: linear-gradient(135deg, #7c5cff 0%, #00d4ff 50%, #ff6b9d 100%);
+  background-image: linear-gradient(
+    135deg,
+    #7c5cff 0%,
+    #00d4ff 50%,
+    #ff6b9d 100%
+  );
 }
 
 /* Bounce animation for scroll hint */
 @keyframes bounce {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(8px); }
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(8px);
+  }
 }
 
 .animate-bounce-hint {

@@ -75,13 +75,15 @@
       "title": "Funeral Management System",
       "tools": ["Python", "FastAPI", "React", "Tailwind CSS", "SQLite"],
       "description": "Developed a management system to organize client records, funeral services, billing, and reporting. Improved data organization and reduced manual record handling through automated processes. Built using React, Python and database management tools.",
-      "icon": "⚡"
+      "icon": "⚡",
+      "url": "https://github.com/jimbros18/CMS"
     },
     {
       "title": "Sales Report Dashboard",
       "tools": ["Python", "SQL", "Power Query", "Power BI", "Microsoft Excel"],
       "description": "Created an interactive dashboard for monitoring sales, expenses, and accounts payable. Automated monthly report generation using Microsoft Excel and Python. Improved reporting efficiency and data visualization for management decision-making.",
-      "icon":   "📱"
+      "icon":   "📱",
+      "url": "https://github.com/jimbros18/superstore"
     }
   ],
   "skills": {
