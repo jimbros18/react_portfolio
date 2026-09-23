@@ -60,7 +60,7 @@ export default function Hero({pi}) {
           />
           
         </h1>
-        <p className="shuffle-font text-[clamp(1.1rem,2.5vw,1.4rem)] font-medium text-text-secondary mb-5">
+        <p className="shuffle-font text-[clamp(1.1rem,2.5vw,1.4rem)] font-medium text-white mb-5">
             <Shuffle
               key={jobIndex}
               text={pi.job_title[jobIndex]}
@@ -78,7 +78,7 @@ export default function Hero({pi}) {
               loopDelay={0}
             />
         </p>            
-        <p className="max-w-140 mx-auto mb-10 text-[1.05rem] leading-relaxed text-text-secondary">
+        <p className="max-w-140 mx-auto mb-10 text-[1.05rem] leading-relaxed text-white">
           I am passionate about working with data, transforming complex information into meaningful visualizations and actionable insights that support informed decision-making.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
