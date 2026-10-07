@@ -82,7 +82,7 @@ export default function Hero({pi}) {
           I am passionate about working with data, transforming complex information into meaningful visualizations and actionable insights that support informed decision-making.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
-          <a
+          {/* <a
             href="your-cv.pdf"
             download
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-[0.95rem] text-white bg-gradient-1 shadow-[0_4px_20px_rgba(124,92,255,0.35)] transition-all duration-350 hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(124,92,255,0.5)]"
@@ -91,9 +91,9 @@ export default function Hero({pi}) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
             Download CV
-          </a>
+          </a> */}
           <a
-            href="your-cv.pdf"
+            href="https://drive.google.com/file/d/195BMvmnD8F5gYRXx9EcOyg7dtdtaNIBG/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-[0.95rem] text-text-primary bg-card-bg border border-card-border transition-all duration-350 hover:border-accent hover:-translate-y-0.5"
